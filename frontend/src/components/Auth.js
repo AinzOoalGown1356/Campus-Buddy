@@ -3,7 +3,7 @@ import { supabase } from '../supabaseClient';
 import { getThemeFromEmail, UNIVERSITY_THEMES } from '../universityThemes';
 
 
-const TEAM_MEMBERS = ['Shayan Khan', 'Noe Flores', 'Aser Eshetu', 'MKayla Sutthiprapa', 'Enoch Ogunfiditimi'];
+const TEAM_MEMBERS = ['Shayan Khan', 'Noe Flores', 'Aser Eshetu', 'Kayla Sutthiprapa', 'Enoch Ogunfiditimi'];
 
 export default function Auth() {
   const [mode, setMode] = useState('login');
